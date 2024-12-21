@@ -1,0 +1,33 @@
+.home {
+    background-color: #FAF3E0; /* Light beige color */
+    padding: 30px;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px ;
+  }
+
+  @media (min-width: 1040px) {
+    .home {
+      height: 70vh;
+    }
+  }
+  
+  .h1{
+
+    font-weight: bold;
+    line-height: 1.6;
+    font-size:x-large;
+    text-align: center;
+    padding: 10px;
+
+  }
+  .p{
+   font-weight: 500;
+   line-height: 2;
+   text-align: center;
+   font-size: large;
+   max-width: 600px; 
+
+  }

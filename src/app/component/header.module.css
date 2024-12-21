@@ -1,0 +1,28 @@
+.header{
+ text-align: center;
+ padding: 30px;
+ background: linear-gradient(to right, #4c6ef5, #62a1fa);
+ color: white;
+}
+.ul{
+ display: flex;
+ gap: 40px;
+ text-align: center;
+ align-items: center;
+ justify-content:  center;
+
+ font-size: larger;
+}
+.ul a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Default color */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Font weight */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+  }
+  
+  /* Hover effect for links */
+  .ul a:hover {
+    transform: scale(1.1); /* Slightly increase size on hover */
+    text-decoration: underline; /* Underline the link on hover */
+  }

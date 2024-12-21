@@ -1,0 +1,28 @@
+
+.about {
+ align-items: center;
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column; 
+ 
+  background-color: #B3E5FC; 
+      height: 100vh;
+}
+@media (min-width: 1040px) {
+  .about {
+    height: 70vh;
+  }
+}
+.h1 {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 20px; 
+  text-align: center;
+
+}
+.paragraph {
+  max-width: 600px; 
+  text-align: center;
+  line-height: 1.6;
+  font-size: large;
+}
